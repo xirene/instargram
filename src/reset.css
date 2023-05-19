@@ -33,6 +33,9 @@ svg {
   display: block;
   max-width: 100%;
 }
+li {
+  list-style: none;
+}
 button {
   background: none;
   border: 0;
