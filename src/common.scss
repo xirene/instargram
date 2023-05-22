@@ -29,6 +29,7 @@
   padding: 120px;
   .profile {
     display: flex;
+    justify-content: center;
     gap: 120px;
     .profile-image {
       display: flex;
@@ -69,6 +70,38 @@
         flex-direction: column;
         gap: 8px;
       }
+    }
+  }
+}
+
+.switch-wrap {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  .switch {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: -1px;
+    button {
+      width: 80px;
+      border-top: 3px solid #999;
+      padding: 12px;
+    }
+  }
+}
+
+.post-wrap {
+  margin: 0 auto;
+  padding-bottom: 120px;
+  max-width: 520px;
+  .post {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    li {
+      width: 160px;
+      height: 160px;
+      border: 1px solid #000;
     }
   }
 }
