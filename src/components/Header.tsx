@@ -27,7 +27,14 @@ function Header() {
             <h1>logo</h1>
           </div>
           <div className="header__search-wrap">
-            <input placeholder="search" />
+            <input
+              className="search-input"
+              css={css`
+                padding: 4px 12px;
+                min-width: 300px;
+              `}
+              placeholder="search"
+            />
           </div>
           <div className="header__rnb-wrap">
             <ul
